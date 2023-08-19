@@ -52,7 +52,7 @@ class _FlutterEasyLoadingState extends State<FlutterEasyLoading> {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
+    return Container(
       child: Overlay(
         initialEntries: [
           EasyLoadingOverlayEntry(

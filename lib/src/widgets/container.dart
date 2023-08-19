@@ -223,6 +223,7 @@ class _Indicator extends StatelessWidget {
                   TextStyle(
                     color: EasyLoadingTheme.textColor,
                     fontSize: EasyLoadingTheme.fontSize,
+                    decorationThickness: 0,
                   ),
               textAlign: EasyLoadingTheme.textAlign,
             ),
